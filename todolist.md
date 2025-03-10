@@ -26,6 +26,7 @@ General goals:
 On reactor 6
 
 Part 1: set the temperature
+  
   pioreactor - manage - setting - temperature(add label)
 
 part 2: program a small script to change the temperature at specific time
