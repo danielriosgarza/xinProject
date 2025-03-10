@@ -20,7 +20,14 @@ General goals:
 
 - Challenge 1: control the temperature: make a squeme of 3h with 25C, 3h with 30, 3h with 35.
 
+
+
 **Tue**
+On reactor 6
+
+Part 1: set the temperature
+
+part 2: program a small script to change the temperature at specific time
 
 One by one control the reactor parameters with water
 
