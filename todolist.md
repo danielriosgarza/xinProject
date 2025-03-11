@@ -5,7 +5,7 @@ General goals:
 - Familiarize yourself with the system, step-by-step:
 0) Prepare you raspberry pi
 1) Assemble a reactor
-2) Control and program: temperature, pH, Optical density, current density one-by-one in water, in one reactor, in multiple reactors
+2) Control and program: temperature, stirring, Optical density, pH, current density one-by-one in water, in one reactor, in multiple reactors
 3) Cultivate a bacteria isolate in the system: goal is to produce some electrical current in the working electrode
 4) Control: pumps and do cultivation with control programs
 - 
