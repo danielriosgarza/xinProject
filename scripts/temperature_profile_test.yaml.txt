@@ -1,0 +1,23 @@
+experiment_profile_name: temp control
+
+metadata:
+  author: xin
+  description: change the temp at specific time
+
+pioreactors:
+  mCPUworker06:
+    jobs:
+      temperature_automation:
+        actions:
+          - type: update
+            hours_elapsed: 0.0
+            options:
+              target_temperature: 25
+          - type: update
+            hours_elapsed: 0.5
+            options:
+              target_temperature: 30
+          - type: update
+            hours_elapsed: 1.0
+            options:
+              target_temperature: 35
