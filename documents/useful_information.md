@@ -1,1 +1,1 @@
-
+When you ssh into the pioreactor, you are in a linux environment without a graphical interface. Everything needs to be done in the terminal, so you need to learn how to use the terminal. [see](https://gist.github.com/bradtraversy/cc180de0edee05075a6139e42d5f28ce)
