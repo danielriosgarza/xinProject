@@ -6,12 +6,14 @@ from pioreactor.background_jobs.stirring import start_stirring
 stirrer = start_stirring(target_rpm=550)
 temp = start_temperature_automation("thermostat", target_temperature=30)
 
-def set_temp_30():
+def set_init():
     temp.target_temperature = 30
+    stirrer.target_rpm = 550
     print("Temp = 30°C")
 
-def set_temp_35():
+def set_change():
     temp.target_temperature = 35
+    stirrer.target_rpm = 600
     print("Temp = 35°C")
 
 def stop_control():
@@ -20,10 +22,12 @@ def stop_control():
     print("temp_control_closed")
     exit()
 
-schedule.every(0).minutes.do(set_temp_30)
-schedule.every(30).minutes.do(set_temp_35)
+schedule.every(0).minutes.do(set_init)
+schedule.every(30).minutes.do(set_change)
 schedule.every(60).minutes.do(stop_control)
 
 while True:
     schedule.run_pending()
     time.sleep(1)
+
+
