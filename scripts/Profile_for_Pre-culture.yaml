@@ -1,0 +1,115 @@
+experiment_profile_name: pre-culture
+
+metadata:
+  author: xin
+  description: The profile was used to maintain temperature and agitation for 48H and od monitoring was performed to calculate the growth rate at 48 hours.
+
+pioreactors:
+  mCPUworker01:
+    label: growth 1_with_pre-culture
+    jobs:
+      temperature_automation:
+        actions:
+          - type: start
+            hours_elapsed: 0.0
+            options:
+              automation_name: thermostat
+              target_temperature: 30.0
+          - type: stop
+            hours_elapsed: 48.0
+      stirring:
+        actions:
+          - type: start
+            hours_elapsed: 0.0
+            options:
+              target_rpm: 550
+          - type: stop
+            hours_elapsed: 48.0
+      od-reading:
+        actions:
+          - type: start
+            hours_elapsed: 0.0
+          - type: log
+            hours_elapsed: 0.03
+            options:
+              message: "OD monitoring started for ${{experiment}}"
+          - type: repeat
+            hours_elapsed: 0.1
+            repeat_every_hours: 0.1
+            actions:
+              - type: log
+                hours_elapsed: 0.0
+                options:
+                  message: "OD reading ongoing..."
+          - type: stop
+            hours_elapsed: 48
+      
+      growth_rate_calculating: 
+        actions:
+          - type: start
+            hours_elapsed: 0.0
+          - type: repeat
+            hours_elapsed: 1.0
+            repeat_every_hours: 1.0
+            actions:
+              - type: log
+                hours_elapsed: 0.0
+                options:
+                  message: "Growth rate monitoring ongoing..."
+          - type: stop
+            hours_elapsed: 48   
+            
+
+  mCPUworker02:
+    label: growth 1_without_pre-culture
+    jobs:
+      temperature_automation:
+        actions:
+          - type: start
+            hours_elapsed: 0.0
+            options:
+              automation_name: thermostat
+              target_temperature: 30.0
+          - type: stop
+            hours_elapsed: 48.0
+      stirring:
+        actions:
+          - type: start
+            hours_elapsed: 0.0
+            options:
+              target_rpm: 550
+          - type: stop
+            hours_elapsed: 48.0
+      od-reading:
+        actions:
+          - type: start
+            hours_elapsed: 0.0
+          - type: log
+            hours_elapsed: 0.03
+            options:
+              message: "OD monitoring started for ${{experiment}}"
+          - type: repeat
+            hours_elapsed: 0.1
+            repeat_every_hours: 0.1
+            actions:
+              - type: log
+                hours_elapsed: 0.0
+                options:
+                  message: "OD reading ongoing..."
+          - type: stop
+            hours_elapsed: 48
+      
+      growth_rate_calculating: 
+        actions:
+          - type: start
+            hours_elapsed: 0.0
+          - type: repeat
+            hours_elapsed: 1.0
+            repeat_every_hours: 1.0
+            actions:
+              - type: log
+                hours_elapsed: 0.0
+                options:
+                  message: "Growth rate monitoring ongoing..."
+          - type: stop
+            hours_elapsed: 48
