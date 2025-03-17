@@ -10,6 +10,7 @@ General goals:
 4) Control: pumps and do cultivation with control programs
 - 
 
+### **Week 1**
 **Mon**
 
 - Printed model
@@ -44,3 +45,12 @@ One by one control the reactor parameters with water
 **Fri**
 
 Prepare the media for the inoculation
+
+### **Week 2**
+
+**Tue**
+1) add the missing 5 pioreactors to the cluster
+
+2) Blink them to see if they are recognized and working
+
+3) Check the print and upload a picture
