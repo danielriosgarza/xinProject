@@ -54,3 +54,18 @@ Prepare the media for the inoculation
 2) Blink them to see if they are recognized and working
 
 3) Check the print and upload a picture
+
+### **Week 3**
+
+1) Turn off all the reactors
+2) Remove the tubes, align them and take a picture.
+3) Clean the tubes: throw the bacteria in the bleach, careful with the magnet
+4) wash the tube being very careful with the magnet.
+5) fill them with water and, together we update the system and make all the self-tests and calibration.
+6) simulate the profiles with 10X less time with water
+7) Repeat last week's experiment: 1) preculture; 2) culture. (in case we need to prepare media, we do it together)
+
+8) late afternoon, we write some python scripts to get the data from the pioreactor and make our own plots.
+9) Finish printing the other parts of the model, then we can test your design for the pH flow. 
+
+
