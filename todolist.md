@@ -68,4 +68,5 @@ Prepare the media for the inoculation
 8) late afternoon, we write some python scripts to get the data from the pioreactor and make our own plots.
 9) Finish printing the other parts of the model, then we can test your design for the pH flow. 
 
+/
 
