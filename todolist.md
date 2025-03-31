@@ -70,3 +70,16 @@ Prepare the media for the inoculation
 
 /
 
+
+### **week 4**
+
+the main goal of the week is to test and calibrate the pH. First with water, then with the culture.
+
+1) Make a new printed reactor;
+
+For the pH test with water:
+1) Assemble the reactor;
+2) Add the pH to the interface.
+3) calibrate the pH meter; [check](https://files.atlas-scientific.com/EZO-pH-complete-datasheet.pdf)
+4) we simulate an experiment, where we add some acid to water;
+5) pre-culture, inoculate the assembled reactor with culture and measure OD, temperature, and pH.
