@@ -83,3 +83,4 @@ For the pH test with water:
 3) calibrate the pH meter; [check](https://files.atlas-scientific.com/EZO-pH-complete-datasheet.pdf)
 4) we simulate an experiment, where we add some acid to water;
 5) pre-culture, inoculate the assembled reactor with culture and measure OD, temperature, and pH.
+6) repair, clean and prepare a new solution for Ag/AgCl Silver chloride reference electrode 
