@@ -1,4 +1,4 @@
-# "pH Calibration"
+# **pH Calibratio**
 
 1. Check ph device connections
 2. Prepare three calibrated pH test solutions (pH 4, 7, 10)
