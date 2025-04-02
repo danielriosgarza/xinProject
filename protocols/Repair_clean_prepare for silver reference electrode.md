@@ -1,4 +1,4 @@
-## "Repair, clean and prepare for Ag/AgCl reference electrode"
+## **Repair, clean and prepare for Ag/AgCl reference electrod**
 
 
 Cleaning the exterior (electrode housing and connector)
