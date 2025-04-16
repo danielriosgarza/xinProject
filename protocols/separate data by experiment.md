@@ -1,8 +1,8 @@
 ## **separate data by experiment**
 1. run 《scp pioreactor@100.117.2.9:/home/pioreactor/.pioreactor/storage/pioreactor.sqlite mCPU_db_day.sqlite》 replace the date.
 
-2. Connect to the reactor and run 《sqlite3 mCPU_db_14_04_25.sqlite》 to enter the database; 
-
+2. Connect to the reactor and run 《sqlite3 mCPU_db_14_04_25.sqlite》 to enter the database;
+  
 3. 《.tables》 to see if there are any data names in the database that are needed; 
 
 4. 《SELECT *
