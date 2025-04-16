@@ -3,7 +3,7 @@
 
 2. Connect to the reactor and run 《sqlite3 mCPU_db_14_04_25.sqlite》 to enter the database; 
 
-3.《.tables》 to see if there are any data names in the database that are needed; 
+3. 《.tables》 to see if there are any data names in the database that are needed; 
 
 4. 《SELECT *
     FROM od_readings 
