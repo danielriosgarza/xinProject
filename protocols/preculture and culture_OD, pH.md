@@ -7,7 +7,7 @@
 
 10/04/25 15h30 - 14/04/25 10h culture OD_0.05 30℃ 550 rpm ：culture 04/05；blank 06 
 
-Culture_OD_10_04_25.csv（Downloads）+ Culture_OD_10_04_25.ipynb(colab)
+Culture_OD_10_04_25.csv + Culture_OD_10_04_25.ipynb
 
 ### **exp2_OD**
 14/04/25 12h preculture 20ul <24h by thermostat 30℃
