@@ -13,7 +13,7 @@
 5. 《.headers on》
    《.mode csv》
    《.output file name.csv》
-   《SELECT * FROM od_readings WHERE experiment = 'Culture_OD0.05_workers0456 10-04-25';》
+   《SELECT * FROM od_readings WHERE experiment = 'experiment name';》
    《.output stdout》 Create a new csv file and copy the experimental data associated with the selected experiment name into this new csv file.
 
 6. run 《scp pioreactor@100.117.2.9:/home/pioreactor/file name.csv Culture_day.csv》 Download this csv file to the desired location.
