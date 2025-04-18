@@ -5,10 +5,10 @@
   
 3. 《.tables》 to see if there are any data names in the database that are needed; 
 
-4. 《SELECT *
-    FROM od_readings 
-    WHERE experiment = 'experiment name' 
-    LIMIT 10;》 display data, used to confirm that the data is correct.
+4. 《SELECT *》
+   《FROM od_readings》
+   《WHERE experiment = 'experiment name'》
+   《LIMIT 10;》 display data, used to confirm that the data is correct.
 
 5. 《.headers on》
    《.mode csv》
