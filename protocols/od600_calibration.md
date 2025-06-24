@@ -35,5 +35,8 @@ This routine will calibrate the current Pioreactor to (offline) OD600 readings. 
 5. Finish calibration: The system will fit a calibration curve based on the collected data and store it as a new calibration file.
 
 
-Protocol 2: standards (faster for calibrating multiple Pioreactors)
-1. Prepare a standards sample: Use multiple vials. {Question: Is it also based on the original sample with different degrees of dilution?}
+Modify the curve:
+Entering a single worker
+`cd .pioreactor/storage/calibrations/od/`
+`nano od-cal-2025-06-19.yaml`
+`pio calibrations analyze --device od --name od-cal-2025-06-19`
