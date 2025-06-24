@@ -35,7 +35,7 @@ This routine will calibrate the current Pioreactor to (offline) OD600 readings. 
 5. Finish calibration: The system will fit a calibration curve based on the collected data and store it as a new calibration file.
 
 
-Modify the curve:
+6. Modify the curve:
 Entering a single worker
 
 `cd .pioreactor/storage/calibrations/od/`
